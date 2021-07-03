@@ -1,0 +1,110 @@
+body{
+	/*background: #fef9e3;*/
+}
+
+.wrapper {
+	position: relative;
+	margin: auto;
+	width: 950px;
+}
+
+.header {
+	position: relative;
+	padding: 20px 50px;
+	background: url(../img/header-bg.jpg) bottom center;
+}
+.header .logo {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 227px;
+	height: 36px;
+	background: url(../img/logo.jpg) center no-repeat;
+}
+.content {
+	padding: 30px 50px 50px;
+}
+.content h1 {
+	margin: 10px 0 20px;
+}
+
+.messages-list th {
+	position: relative;
+}
+.messages-list thead .sortable {
+	padding-right: 45px;
+}
+.messages-list thead .sort-icon {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 0;
+	height: 0;
+	text-decoration: none;
+}
+.messages-list thead .sort-icon:hover {
+	cursor: pointer;
+	opacity: .6;
+}
+.messages-list thead .icon-top {
+	margin-top: -10px;
+}
+.messages-list thead .icon-down {
+	/*margin-top: 0;*/
+}
+
+.messages-list .top-panel {
+	margin: -8px -8px 5px;
+	padding: 0 8px;
+	background: #ededed;
+}
+.messages-list .actions a {
+	text-decoration: none;
+}
+
+.form-search {
+	margin: 15px 0;
+}
+.form-search input {
+	width: 300px !important;
+}
+
+
+.form-messages-edit,
+.form-messages-add {
+	padding: 10px;
+	background: #e8e3cd;
+	border-radius: 10px;
+}
+.form-messages-edit fieldset,
+.form-messages-add fieldset {
+	width: 50%;
+}
+
+form .required label::after {
+	content: ' *';
+	color: #f00;
+}
+form input[name=captcha] {
+	width: 160px;
+}
+
+.paginator {
+	margin: 10px auto 20px;
+	padding: 10px;
+	width: 80%;
+	text-align: center;
+	/*background: #fef9e3;*/
+}
+
+.form-users-edit,
+.form-registration {
+	margin: 20px 0 0;
+	padding: 10px;
+	background: #e8e3cd;
+	border-radius: 10px;
+}
+.form-users-edit fieldset,
+.form-registration fieldset {
+	width: 50%;
+}
